@@ -1,9 +1,9 @@
 #include<stdio.h>
 void main()
 {
-int a,b,c;
-c=a;
-a=b;
-b=c;
+int a,b;
+a=a+b;
+b=a-b;
+a=a-b;
 printf("swaped no's:%d%d",a,b);
 }
